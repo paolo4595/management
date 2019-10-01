@@ -14,16 +14,16 @@
 	</tr>
 	<tr style="height:40">
 		<th>Serial</th>
-		<th>Image</th>
 		<th>Room No</th>
 		<th>Service Type</th>
-		<th>Price</th>
 		<th>Details</th>
+		<th>Price</th>
+		<th>Image</th>
 		<th>Update</th>
 		<th>Delete</th>
 	</tr>
 <?php 
-$i=1001;
+$i=1;
 $sql=mysqli_query($con,"select * from rooms");
 while($res=mysqli_fetch_assoc($sql))
 {
@@ -36,9 +36,8 @@ $path="../image/rooms/$img";
 		<td><img src="<?php echo $path;?>" width="50" height="50"/></td>
 		<td><?php echo $res['room_no']; ?></td>
 		<td><?php echo $res['type']; ?></td>
-		<td><?php echo $res['price']; ?></td>
 		<td><?php echo $res['details']; ?></td>
-
+		<td><?php echo $res['price']; ?></td>
 		<td><a href="dashboard.php?option=update_service&id=<?php echo $id; ?>"><span class="glyphicon glyphicon-pencil"></span></a></td>
 
 		

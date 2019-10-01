@@ -1,4 +1,4 @@
-<?php 
+ <?php 
 include('connection.php');
 extract($_REQUEST);
 if(isset($send))
@@ -12,21 +12,19 @@ $msg= "<h4 style='color:green;'>feedback sent successfully</h4>";
 <footer style="background-color: #393939;">
     <div class="container-fluid">
 	<div class="col-sm-4 hov">
-		<img src="logo/logo2.png"width="200px"height="50px"/><br><br>
-    <p class="text-justify">La Velle Beauty, is an establishment dealing with cosmetic treatments for men and women. Other variations of this type of business include hair salons and spas.
-
-There is a distinction between a beauty salon and a hair salon and although many small businesses do offer both sets of treatments; beauty salons provide extended services related to skin health, facial aesthetics, foot care, nail manicures, aromatherapy — even meditation, oxygen therapy, mud baths and many other services.
-      <center><a href="about.php" class="btn btn-danger"><b>Read More..</b></a></center><br><br><br>
+		<img src="logo/logo3.png"width="200px"height="70px"/><br><br>
+    <p class="text-justify">A beauty salon or beauty parlor (beauty parlour), or sometimes beauty shop, is an establishment dealing with cosmetic treatments for men and women. Other variations of this type of business include hair salons and spas. There is a distinction between a beauty salon and a hair salon and although many small businesses do offer both sets of treatments; beauty salons provide extended services related to skin health, facial aesthetics, foot care, nail manicures, aromatherapy — even meditation, oxygen therapy, mud baths and many other services.</p><br>
+      <center><a href="../about.php" class="btn btn-danger"><b>Read More..</b></a></center><br><br><br>
  <?php
   include('Social icon.php')
 ?>
 	</div>&nbsp;&nbsp;
 	<div class="col-sm-4 text-justify">
 	       <h3 style="color:#cdd51f;">Contact Us</h3>
-      <p style="color:white;"><strong>Address:&nbsp;</strong>108 Manor, Valenzuela, Metro Manila</p>
-      <p style="color:white;"><strong>Email-Id:&nbsp;</strong>lavelle@gmail.com</p>
-      <p style="color:white;"><strong>Contact Us:&nbsp;</strong>(+63) 9452854083</p><br><br><br>
-     <center><img src="image/devlop/img2.png"class="img-responsive"style="width:200px;height:150px;border-radius:100%;"></center>
+      <p style="color:white;"><strong>Address:&nbsp;</strong>111c MacArthur Highway, Marulas, Valenzuela City</p>
+      <p style="color:white;"><strong>Email-Id:&nbsp;</strong>LaVelle@gmail.com</p>
+      <p style="color:white;"><strong>Contact Us:&nbsp;</strong>09452854083</p><br><br><br>
+     <center><img src="devlop/img3.png"class="img-responsive"style="width:200px;height:150px;border-radius:100%;"></center>
 	</div>&nbsp;
 
   <!--Feedback Start Here-->
